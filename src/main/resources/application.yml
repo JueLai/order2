@@ -1,0 +1,8 @@
+# DataSource Config
+mongo-plus:
+  data:
+    mongodb:
+      host: 127.0.0.1   #ip
+      port: 27017   #端口
+      database: orderDoc    #数据库名
+      connectTimeoutMS: 50000   #在超时之前等待连接打开的最长时间（以毫秒为单位）
